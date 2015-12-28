@@ -26,4 +26,10 @@ imap jk <Esc>
 inoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
 
+" Moving between Tmux Panes and Vim splits
+nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>
   
