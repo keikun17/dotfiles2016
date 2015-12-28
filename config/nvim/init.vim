@@ -3,6 +3,8 @@ set nocompatible
 filetype off
 filetype indent on
 filetype plugin on
+set t_Co=256
+
 
 " But No swap files, those are annoying
 set noswapfile
