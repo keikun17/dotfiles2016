@@ -6,5 +6,9 @@ set -gx OMF_PATH /Users/Hanekawa/.local/share/omf
 
 # Load oh-my-fish configuration.
 source $OMF_PATH/init.fish
+
+# alias hub to git
 eval (hub alias -s)
 
+# Load my Aliases
+source ~/.config/fish/aliases.fish
