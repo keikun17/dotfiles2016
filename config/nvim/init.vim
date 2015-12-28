@@ -5,6 +5,20 @@ filetype indent on
 filetype plugin on
 set t_Co=256
 
+set number           " Line numbers
+set history=100      " Commandline history size
+set visualbell       " No bell sounds
+set autoread         " Reload files changed outside of vim
+set gcr=a:blinkon0   " Disable cursor blink
+set showcmd
+set showmode
+
+syntax on            " Turn on syntax highlighting
+
+" hides buffers instead of closing them and close unchnaged files
+" without being prompted to save
+set hidden 
+
 
 " But No swap files, those are annoying
 set noswapfile
@@ -31,6 +45,7 @@ so ~/.config/nvim/settings.vim
 " ==================== Core Mappings ====================
 let mapleader=","
 imap jk <Esc>
+nnoremap <leader>q :Unite<CR>
  
 " Save with CTRL-S
 inoremap <C-s> <esc>:w<cr>
@@ -39,6 +54,22 @@ nnoremap <C-s> :w<cr>
 " Nerdtree
 nnoremap <C-S-n> :NERDTreeToggle<CR>
 
+" Quick splits
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
+
+" Indenting selections
+vnoremap < <gv
+vnoremap > >gv
+
+" Tab navigation
+nnoremap tn :tabnew<CR>
+nnoremap th :tabprev<CR>
+nnoremap tl :tabnext<CR>
+
+" Make Ctrl-C in insert mode behave as ESC
+inoremap <C-c> <Esc>
+
 " Moving between Tmux Panes and Vim splits
 let g:tmux_navigator_no_mappings = 1
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
@@ -46,5 +77,9 @@ nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
 nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
+
+" Clear search
+
+nnoremap // :nohlsearch<CR>
   
 
