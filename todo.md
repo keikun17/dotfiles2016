@@ -1,3 +1,5 @@
 # Needs mapping
 - Ack keymapping
-- Unite filerec
+
+# Snippets
+- For documentation by filetype

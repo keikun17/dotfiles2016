@@ -51,12 +51,14 @@ set undofile
 source ~/.config/nvim/plugins.vim
 
 " ==================== Load settings ====================
-so ~/.config/nvim/settings.vim
+source ~/.config/nvim/settings.vim
 
 " ==================== Core Mappings ====================
 let mapleader=","
 imap jk <Esc>
 nnoremap <leader>q :Unite<CR>
+nnoremap <leader>t :Unite file_rec/git file_mru<CR>
+
  
 " Save with CTRL-S
 inoremap <C-s> <esc>:w<cr>
