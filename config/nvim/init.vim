@@ -20,6 +20,9 @@ set gcr=a:blinkon0   " Disable cursor blink
 set showcmd
 set showmode
 
+set ignorecase
+set smartcase
+
 syntax on             " Turn on syntax highlighting
 set clipboard=unnamed " clipboard sharing
 
