@@ -35,7 +35,6 @@ set noswapfile
 set nobackup
 set nowb
 
-
 " Split character (Default is '|'), yeah there's a trailing whitespace.
 set fillchars+=vert:\ 
 
@@ -90,5 +89,3 @@ nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
 " Clear search
 
 nnoremap // :nohlsearch<CR>
-  
-
