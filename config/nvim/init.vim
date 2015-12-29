@@ -13,20 +13,22 @@ set gcr=a:blinkon0   " Disable cursor blink
 set showcmd
 set showmode
 
-syntax on            " Turn on syntax highlighting
+syntax on             " Turn on syntax highlighting
+set clipboard=unnamed " clipboard sharing
+
+set tabstop=2         " ... tabs are 2 spaces
+set shiftwidth=2      " ... indenting with '<' and '>' 2 spaces
+set expandtab         " spaces for tabs...
 
 " hides buffers instead of closing them and close unchnaged files
 " without being prompted to save
 set hidden 
-
 
 " But No swap files, those are annoying
 set noswapfile
 set nobackup
 set nowb
 
-" clipboard sharing
-set clipboard=unnamed
 
 " Split character (Default is '|'), yeah there's a trailing whitespace.
 set fillchars+=vert:\ 
