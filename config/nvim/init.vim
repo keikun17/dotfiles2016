@@ -15,6 +15,7 @@ set number           " Line numbers
 set history=100      " Commandline history size
 set visualbell       " No bell sounds
 set autoread         " Reload files changed outside of vim
+set nowrap
 set gcr=a:blinkon0   " Disable cursor blink
 set showcmd
 set showmode
