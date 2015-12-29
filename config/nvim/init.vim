@@ -80,6 +80,7 @@ inoremap <C-c> <Esc>
 
 " Moving between Tmux Panes and Vim splits
 let g:tmux_navigator_no_mappings = 1
+nmap <BS>               :TmuxNavigateLeft<cr>      " workaround for problem where <c-h> sends <bs>
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
