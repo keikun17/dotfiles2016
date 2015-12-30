@@ -58,8 +58,8 @@ let mapleader=","
 imap jk <Esc>
 nnoremap <leader>q :Unite<CR>
 
-nnoremap <leader>t :Unite file_mru file_rec/git<CR>
-
+nnoremap <leader>g :Unite file_mru file_rec/git<CR>
+nnoremap <leader>t :Unite file_mru file_rec/async<CR>
  
 " Save with CTRL-S
 inoremap <C-s> <esc>:w<cr>
