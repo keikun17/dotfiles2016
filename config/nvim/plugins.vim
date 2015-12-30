@@ -32,9 +32,11 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'Shougo/neomru.vim'
 
  "==============================
- " Themes
+ " Appearance / Themes
  "==============================
  " Plug 'altercation/vim-colors-solarized'
  Plug 'zenorocha/dracula-theme', { 'rtp': 'vim' }
+ Plug 'bling/vim-airline'
+
 
 call plug#end()
