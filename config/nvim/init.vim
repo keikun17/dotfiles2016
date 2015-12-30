@@ -57,7 +57,8 @@ source ~/.config/nvim/settings.vim
 let mapleader=","
 imap jk <Esc>
 nnoremap <leader>q :Unite<CR>
-nnoremap <leader>t :Unite file_rec/git file_mru<CR>
+
+nnoremap <leader>t :Unite file_mru file_rec/git<CR>
 
  
 " Save with CTRL-S
