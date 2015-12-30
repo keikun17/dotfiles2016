@@ -10,7 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
  "==============================
  " Git
  "==============================
- plug 'airblade/vim-gitgutter'
+ Plug 'airblade/vim-gitgutter'
 
  "==============================
  " Snips
