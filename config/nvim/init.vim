@@ -47,52 +47,9 @@ silent !mkdir ~/.config/nvim/undo_backups > /dev/null 2>&1
 set undodir=~/.config/nvim/undo_backups
 set undofile
 
-" ==================== Load plugins  ====================
-source ~/.config/nvim/plugins.vim
-
-" ==================== Load settings ====================
-source ~/.config/nvim/settings.vim
-
-" ==================== Core Mappings ====================
-let mapleader=","
-imap jk <Esc>
-nnoremap <leader>q :Unite<CR>
-
-nnoremap <leader>g :Unite file_mru file_rec/git<CR>
-nnoremap <leader>t :Unite file_mru file_rec/async<CR>
- 
-" Save with CTRL-S
-inoremap <C-s> <esc>:w<cr>
-nnoremap <C-s> :w<cr>
-
-" Nerdtree
-nnoremap <C-S-n> :NERDTreeToggle<CR>
-
-" Quick splits
-nnoremap <silent> vv <C-w>v
-nnoremap <silent> ss <C-w>s
-
-" Indenting selections
-vnoremap < <gv
-vnoremap > >gv
-
-" Tab navigation
-nnoremap tn :tabnew<CR>
-nnoremap th :tabprev<CR>
-nnoremap tl :tabnext<CR>
-
-" Make Ctrl-C in insert mode behave as ESC
-inoremap <C-c> <Esc>
-
-" Moving between Tmux Panes and Vim splits
-let g:tmux_navigator_no_mappings = 1
-nmap <BS>               :TmuxNavigateLeft<cr>      " workaround for problem where <c-h> sends <bs>
-nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
-nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
-nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
-nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
-nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
-
-" Clear search
-
-nnoremap // :nohlsearch<CR>
+" ==============================
+" Load things
+" ==============================
+source ~/.config/nvim/plugins.vim         " Load plugins
+source ~/.config/nvim/settings.vim        " Load plugin settings
+source ~/.config/nvim/keymappings.vim     " Load keymappings
