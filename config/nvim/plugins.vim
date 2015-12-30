@@ -1,8 +1,12 @@
 call plug#begin('~/.config/nvim/plugged')
 
  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
- Plug 'christoomey/vim-tmux-navigator'
  Plug 'jistr/vim-nerdtree-tabs'
+
+ Plug 'christoomey/vim-tmux-navigator'
+
+ Plug 'SirVer/ultisnips'
+ Plug 'honza/vim-snippets'
 
  Plug 'mileszs/ack.vim'
  Plug 'rking/ag.vim'
@@ -10,7 +14,6 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'Shougo/vimproc.vim', { 'do': 'make' }
  Plug 'Shougo/unite.vim'
  Plug 'Shougo/neomru.vim'
-
 
 
 call plug#end()
