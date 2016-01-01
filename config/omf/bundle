@@ -1,2 +1,4 @@
+package foreign-env
+package nvm
 theme coffeeandcode
 theme default
