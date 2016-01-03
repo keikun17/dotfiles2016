@@ -3,3 +3,5 @@
 
 # Snippets
 - For documentation by filetype
+
+#Issues
