@@ -13,6 +13,11 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'airblade/vim-gitgutter'
 
  "==============================
+ " Code
+ "==============================
+ Plug 'scrooloose/nerdcommenter'
+
+ "==============================
  " Snips
  "==============================
  Plug 'SirVer/ultisnips'
