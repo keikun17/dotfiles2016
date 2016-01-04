@@ -15,7 +15,7 @@ call plug#begin('~/.config/nvim/plugged')
  "==============================
  " Code
  "==============================
- Plug 'scrooloose/nerdcommenter'
+ Plug 'tomtom/tcomment_vim'
 
  "==============================
  " Snips
