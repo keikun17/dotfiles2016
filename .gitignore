@@ -2,4 +2,5 @@ config/fish/fish_history
 config/nvim/undo_backups
 config/nvim/.netrwhist
 config/nvim/plugged
+config/nvim/.init.vim-rplugin~
 
