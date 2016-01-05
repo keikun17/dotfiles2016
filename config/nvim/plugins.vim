@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/plugged')
  "==============================
  Plug 'tomtom/tcomment_vim'     " comments
  Plug 'Shougo/deoplete.nvim'    " autocompletion
+ Plug 'tpope/vim-haml'
 
  "==============================
  " Snips
