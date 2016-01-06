@@ -46,5 +46,5 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 "==============================
 nnoremap <leader>q :Unite<CR>
 nnoremap <leader>g :Unite file_rec/git<CR>
-nnoremap <leader>t :Unite file_rec/async<CR>
+nnoremap <leader>t :Unite buffer file_rec/async<CR>
 nnoremap <leader>m :Unite file_mru<CR>
