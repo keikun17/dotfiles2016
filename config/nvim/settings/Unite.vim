@@ -1,10 +1,10 @@
 " Do not include files and folders ignored under .gitignore in the results
 call unite#custom#source(
-  \ 'file,file_rec,buffer,file_rec/async,file_rec/neovim',
+  \ 'file_rec,file_rec/async',
   \ 'matchers', ['matcher_fuzzy', 'matcher_project_ignore_files', 'converter_relative_word'])
 
 call unite#custom#source(
-  \ 'file,file_rec,buffer,file_rec/async,file_rec/neovim',
+  \ 'file_rec,file_rec/async',
   \ 'sorters',  ['sorter_selecta'])
 
 call unite#custom#source('file_mru', 'matchers', ['matcher_project_files', 'matcher_project_ignore_files'])
