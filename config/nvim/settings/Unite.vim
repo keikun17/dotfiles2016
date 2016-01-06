@@ -7,6 +7,8 @@ call unite#custom#source(
   \ 'file,file_rec,buffer,file_rec/async,file_rec/neovim',
   \ 'sorters',  ['sorter_selecta'])
 
+call unite#custom#source('file_mru', 'matchers', ['matcher_project_files', 'matcher_project_ignore_files'])
+
 " Like ctrlp.vim settings.
 call unite#custom#profile('default', 'context', {
   \   'start_insert': 1,
