@@ -20,3 +20,11 @@ call unite#custom#profile('default', 'context', {
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_selecta'])
 
+" " Using ack-grep as recursive command.
+" let g:unite_source_rec_async_command =
+"       \ ['ack', '-f', '--nofilter']
+
+" Using ag as recursive command.
+let g:unite_source_rec_async_command =
+      \ ['ag', '--follow', '--nocolor', '--nogroup', '--hidden', '-g', '']
+
