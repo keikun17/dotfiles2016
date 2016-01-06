@@ -41,8 +41,10 @@ call plug#begin('~/.config/nvim/plugged')
  "==============================
  " Appearance / Themes
  "==============================
- " Plug 'altercation/vim-colors-solarized'
- Plug 'zenorocha/dracula-theme', { 'rtp': 'vim' }
+ " Plug 'altercation/vim-colors-solarized'              " theme
+ " Plug 'zenorocha/dracula-theme', { 'rtp': 'vim' }     " theme
+ Plug 'romainl/Apprentice'                            " theme
+"  Plug 'whatyouhide/vim-gotham'
  Plug 'bling/vim-airline'
 
 

@@ -1,2 +1,3 @@
-" dracula theme
-color dracula
+" colorscheme dracula
+colorscheme apprentice
+" colorscheme gotham256
