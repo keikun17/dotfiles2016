@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'tpope/vim-surround'      " quick change surround
  Plug 'Shougo/deoplete.nvim'    " autocompletion
  Plug 'tpope/vim-haml'
+ Plug 'isRuslan/vim-es6'
 
  "==============================
  " Snips
