@@ -21,6 +21,7 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'Townk/vim-autoclose'    
  Plug 'tpope/vim-haml'
  Plug 'isRuslan/vim-es6'
+ Plug 'mattn/emmet-vim'
 
  "==============================
  " Snips
