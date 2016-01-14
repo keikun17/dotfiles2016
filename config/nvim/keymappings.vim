@@ -23,9 +23,16 @@ nnoremap tl :tabnext<CR>
 " ESC shortcuts
 inoremap <C-c> <Esc>
 imap jk <Esc>
-"
+
+
+"==============================
+" Searching
+"==============================
+
 " Clear search
 nnoremap // :nohlsearch<CR>
+
+nnoremap \ :Gsearch<SPACE>
 
 "==============================
 " TmuxVimNavigator
