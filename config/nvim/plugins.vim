@@ -34,6 +34,7 @@ call plug#begin('~/.config/nvim/plugged')
  "==============================
  Plug 'mileszs/ack.vim'
  Plug 'rking/ag.vim'
+ Plug 'skwp/greplace.vim'
 
  "==============================
  " Unite
