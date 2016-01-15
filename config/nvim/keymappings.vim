@@ -51,6 +51,11 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 "==============================
 " Unite
 "==============================
+nnoremap [unite]   <Nop>
+nmap     f         [unite]
+nmap     [unite]o  :Unite outline<CR>
+
+
 nnoremap <leader>q :Unite<CR>
 nnoremap <leader>g :Unite file_rec/git<CR>
 nnoremap <leader>t :Unite buffer file_rec/async<CR>

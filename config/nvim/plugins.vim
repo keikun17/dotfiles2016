@@ -48,6 +48,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'Shougo/vimproc.vim', { 'do': 'make' }
   Plug 'Shougo/unite.vim'
   Plug 'Shougo/neomru.vim'
+  Plug 'Shougo/unite-outline'
 
   "==============================
   " Appearance / Themes
