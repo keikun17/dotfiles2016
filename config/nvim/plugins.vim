@@ -23,6 +23,12 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'isRuslan/vim-es6'
  Plug 'mattn/emmet-vim'
 
+
+ "==============================
+ " Ctags
+ "==============================
+ Plug 'craigemery/vim-autotag'
+
  "==============================
  " Snips
  "==============================
