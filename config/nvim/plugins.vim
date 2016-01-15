@@ -20,7 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
  Plug 'Shougo/deoplete.nvim'    " autocompletion
  Plug 'Townk/vim-autoclose'    
  Plug 'tpope/vim-haml'
- Plug 'isRuslan/vim-es6'
+ Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
  Plug 'mattn/emmet-vim'
 
 
