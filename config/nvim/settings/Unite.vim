@@ -45,3 +45,14 @@ call unite#filters#sorter_default#use(['sorter_selecta'])
 let g:unite_source_rec_async_command =
       \ ['ag', '--follow', '--nocolor', '--nogroup', '--hidden', '-g', '']
 
+" ==============================
+" Close unite with jk
+" ==============================
+function! s:unite_settings() "{
+  imap <buffer> <C-PageUp>     <Plug>(unite_select_next_line)
+  imap <buffer> <C-PageDown>   <Plug>(unite_select_previous_line)
+  imap <buffer> jk             <Plug>(unite_exit)
+  imap <buffer> <Esc>          <Plug>(unite_exit)
+endfunction
+
+autocmd FileType unite call s:unite_settings()
