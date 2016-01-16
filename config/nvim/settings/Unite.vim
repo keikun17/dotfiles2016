@@ -53,6 +53,7 @@ function! s:unite_settings() "{
   imap <buffer> <C-PageDown>   <Plug>(unite_select_previous_line)
   imap <buffer> jk             <Plug>(unite_exit)
   imap <buffer> <Esc>          <Plug>(unite_exit)
+  imap <buffer> <C-c>          <Plug>(unite_exit)
 endfunction
 
 autocmd FileType unite call s:unite_settings()
