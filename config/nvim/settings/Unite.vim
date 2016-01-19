@@ -21,7 +21,6 @@ call unite#custom#source(
 " Like ctrlp.vim settings.
 "==============================
 call unite#custom#profile('default', 'context', {
-      \   'start_insert': 1,
       \   'winheight': 10,
       \   'direction': 'botright',
       \ })

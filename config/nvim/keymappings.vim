@@ -52,10 +52,10 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 "==============================
 nnoremap [unite]   <Nop>
 nmap     f         [unite]
-nmap     [unite]o  :Unite outline<CR>
+" nmap     [unite]o  :Unite outline -start_insert=0<CR>
+nnoremap <silent> [unite]o :<C-u>Unite -buffer-name=outline outline<CR>
 
-
-nnoremap <leader>q :Unite<CR>
-nnoremap <leader>g :Unite file_rec/git<CR>
-nnoremap <leader>t :Unite buffer file_rec/async<CR>
-nnoremap <leader>m :Unite file_mru<CR>
+nnoremap <leader>q :Unite -start-insert<CR>
+nnoremap <leader>g :Unite -start-insert file_rec/git<CR>
+nnoremap <leader>t :Unite -start-insert buffer file_rec/async<CR>
+nnoremap <leader>m :Unite -start-insert file_mru<CR>
