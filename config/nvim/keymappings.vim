@@ -22,8 +22,7 @@ nnoremap tl :tabnext<CR>
 
 " ESC shortcuts
 inoremap <C-c> <Esc>
-imap jk <Esc>
-
+inoremap jk <Esc>
 
 "==============================
 " Searching
