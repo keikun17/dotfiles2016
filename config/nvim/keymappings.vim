@@ -8,7 +8,7 @@ nnoremap <C-s> :w<cr>
 nnoremap <C-S-n> :NERDTreeToggle<CR>
 
 " Splits
-nnoremap <silent> vv <C-w>v     "Quick indenting selections   
+nnoremap <silent> vv <C-w>v     "Quick indenting selections
 nnoremap <silent> ss <C-w>s     "Quick indenting selections
 
 " Indenting

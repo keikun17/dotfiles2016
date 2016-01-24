@@ -23,6 +23,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'tpope/vim-haml'
   Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
   Plug 'mattn/emmet-vim'
+  Plug 'ntpeters/vim-better-whitespace'
 
 
   "==============================
