@@ -24,6 +24,9 @@ nnoremap tl :tabnext<CR>
 inoremap <C-c> <Esc>
 inoremap jk <Esc>
 
+" Removing whitespaces:Stri
+nnoremap <leader>w :StripWhitespace<CR>
+
 "==============================
 " Searching
 "==============================
