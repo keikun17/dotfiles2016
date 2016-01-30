@@ -19,11 +19,24 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'tomtom/tcomment_vim'     " comments
   Plug 'tpope/vim-surround'      " quick change surround
   Plug 'Shougo/deoplete.nvim'    " autocompletion
-  Plug 'Townk/vim-autoclose'    
-  Plug 'tpope/vim-haml'
-  Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
-  Plug 'mattn/emmet-vim'
+  Plug 'Townk/vim-autoclose'
   Plug 'ntpeters/vim-better-whitespace'
+  Plug 'mattn/emmet-vim'
+
+  "==============================
+  " Ruby
+  "==============================
+  Plug 'tpope/vim-haml'
+
+  "==============================
+  " CSS
+  "==============================
+  Plug 'skammer/vim-css-color'
+
+  "==============================
+  " Javascript
+  "==============================
+  Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
 
 
   "==============================
