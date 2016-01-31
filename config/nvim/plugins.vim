@@ -31,7 +31,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   " CSS
   "==============================
-  Plug 'skammer/vim-css-color'
+  " Plug 'skammer/vim-css-color'
 
   "==============================
   " Javascript
