@@ -2,6 +2,7 @@ let mapleader=","
 
 " Save with CTRL-S
 inoremap <C-s> <esc>:w<cr>
+vnoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
 
 " Nerdtree
