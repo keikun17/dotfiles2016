@@ -5,6 +5,11 @@ inoremap <C-s> <esc>:w<cr>
 vnoremap <C-s> <esc>:w<cr>
 nnoremap <C-s> :w<cr>
 
+" Undo all unsaved changes
+inoremap <leader>e <esc>:e<cr>
+vnoremap <leader>e <esc>:e<cr>
+nnoremap <leader>e :e<cr>
+
 " Nerdtree
 nnoremap <C-S-n> :NERDTreeToggle<CR>
 
