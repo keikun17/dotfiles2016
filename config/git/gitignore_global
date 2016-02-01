@@ -1,3 +1,7 @@
+#  SYMLINK this file to ~/.gitignore_global then run :
+#    git config --global core.excludesfile ~/.gitignore_global
+
+
 # OSX       taken from: https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
 # ----------------------------------------------------------------------------------------------
 .DS_Store
