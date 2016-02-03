@@ -13,9 +13,9 @@ nnoremap <leader>e :e!<cr>
 " Nerdtree
 nnoremap <C-S-n> :NERDTreeToggle<CR>
 
-" Splits
-nnoremap <silent> vv <C-w>v     "Quick indenting selections
-nnoremap <silent> ss <C-w>s     "Quick indenting selections
+" Quick splits
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
 
 " Indenting
 vnoremap < <gv
