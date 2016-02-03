@@ -37,6 +37,7 @@ call plug#begin('~/.config/nvim/plugged')
   " Javascript
   "==============================
   Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
+  Plug 'kchmck/vim-coffee-script'
 
 
   "==============================
