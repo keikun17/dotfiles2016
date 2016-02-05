@@ -24,9 +24,10 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'mattn/emmet-vim'
 
   "==============================
-  " Ruby
+  " Ruby / Rails
   "==============================
   Plug 'tpope/vim-haml'
+  Plug 'toppe/vim-rails'
 
   "==============================
   " CSS
