@@ -28,6 +28,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'tpope/vim-haml'
   Plug 'toppe/vim-rails'
+  Plug 'vim-ruby/vim-ruby'
 
   "==============================
   " CSS
