@@ -77,4 +77,19 @@ call plug#begin('~/.config/nvim/plugged')
   " Plug 'whatyouhide/vim-gotham'
   Plug 'bling/vim-airline'
 
+  "========================================
+  " Text objects
+  "========================================
+  Plug 'kana/vim-textobj-user'
+  Plug 'austintaylor/vim-indentobject'
+  Plug 'bootleq/vim-textobj-rubysymbol'
+  Plug 'coderifous/textobj-word-column.vim'
+  Plug 'kana/vim-textobj-datetime'
+  Plug 'kana/vim-textobj-entire'
+  Plug 'kana/vim-textobj-function'
+  Plug 'lucapette/vim-textobj-underscore'
+  Plug 'nathanaelkane/vim-indent-guides'
+  Plug 'nelstrom/vim-textobj-rubyblock'
+  Plug 'thinca/vim-textobj-function-javascript'
+  Plug 'vim-scripts/argtextobj.vim'
 call plug#end()
