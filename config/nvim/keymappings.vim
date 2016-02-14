@@ -61,7 +61,6 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 "==============================
 nnoremap [unite]   <Nop>
 nmap     f         [unite]
-" nmap     [unite]o  :Unite outline -start_insert=0<CR>
 nnoremap <silent> [unite]o :<C-u>Unite -buffer-name=outline outline<CR>
 
 nnoremap <leader>q :Unite -start-insert<CR>
