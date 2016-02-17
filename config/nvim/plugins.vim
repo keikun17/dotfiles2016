@@ -40,7 +40,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'isRuslan/vim-es6', { 'for': 'javascript' }
   Plug 'kchmck/vim-coffee-script'
-
+  Plug 'mxw/vim-jsx'
 
   "==============================
   " Ctags
