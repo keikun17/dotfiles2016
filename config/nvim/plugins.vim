@@ -27,7 +27,7 @@ call plug#begin('~/.config/nvim/plugged')
   " Ruby / Rails
   "==============================
   Plug 'tpope/vim-haml'
-  Plug 'toppe/vim-rails'
+  Plug 'tpope/vim-rails'
   Plug 'vim-ruby/vim-ruby'
 
   "==============================
