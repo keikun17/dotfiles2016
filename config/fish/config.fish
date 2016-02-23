@@ -21,3 +21,5 @@ source /usr/local/share/chruby/auto.fish
 # Default ruby
 chruby ruby-2.3.0
 
+# Load Env vars
+source ~/.config/fish/env.fish
