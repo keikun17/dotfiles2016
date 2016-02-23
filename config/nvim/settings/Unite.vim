@@ -11,10 +11,10 @@ call unite#custom#source(
       \ ['converter_file_directory'])
 
 "==============================
-" Restrict file_mru candidates to files inside project dir
+" Restrict file_mru or neomru candidates to files inside project dir
 "==============================
 call unite#custom#source(
-      \ 'file_mru', 
+      \ 'neomru/file',
       \ 'matchers', ['matcher_project_files', 'matcher_project_ignore_files'])
 
 "==============================
