@@ -15,7 +15,7 @@ call unite#custom#source(
 "==============================
 call unite#custom#source(
       \ 'neomru/file',
-      \ 'matchers', ['matcher_project_files', 'matcher_project_ignore_files'])
+      \ 'matchers', ['matcher_project_files'])
 
 "==============================
 " Like ctrlp.vim settings.
