@@ -8,8 +8,9 @@ set t_Co=256
 " fish startup is slow. So plugin funcitions like TmuxNavigate<direction>
 " has unacceptable delay
 if &shell =~# 'fish$'
-  set shell=/bin/bash
+  set shell=/bin/bash\ -i
 endif
+
 
 set number           " Line numbers
 set history=100      " Commandline history size

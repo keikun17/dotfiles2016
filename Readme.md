@@ -2,9 +2,10 @@
 
 ## Shell (fish)
   - oh-my-fish
+  - fzf `brew install fzf`
 
 ## Vim
-  - fzf `brew install fzf`
+  - fzf `brew install fzf` (also in Shell)
 
 ## Tmux
   - tmux-MacOSX-pasteboard / reattach-to-user-namespace : https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard

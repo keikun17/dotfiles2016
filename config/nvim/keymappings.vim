@@ -69,5 +69,3 @@ nnoremap <leader>y :Unite -start-insert buffer file_rec/async<CR>
 nnoremap <leader>m :Unite -start-insert neomru/file<CR>
 
 nnoremap <leader>t :FZF<CR>
-
-
