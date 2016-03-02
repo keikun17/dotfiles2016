@@ -59,6 +59,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'mileszs/ack.vim'
   Plug 'rking/ag.vim'
   Plug 'skwp/greplace.vim'
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
   "==============================
   " Unite

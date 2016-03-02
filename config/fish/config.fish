@@ -23,3 +23,7 @@ chruby ruby-2.3.0
 
 # Load Env vars
 source ~/.config/fish/env.fish
+
+for filename in $HOME/.config/fish/config.d/*.fish
+  source $filename
+end

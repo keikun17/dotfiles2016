@@ -1,0 +1,1 @@
+/Users/Hanekawa/.fzf/shell/key-bindings.fish

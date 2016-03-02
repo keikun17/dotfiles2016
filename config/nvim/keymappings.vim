@@ -65,5 +65,9 @@ nnoremap <silent> [unite]o :<C-u>Unite -buffer-name=outline outline<CR>
 
 nnoremap <leader>q :Unite -start-insert<CR>
 nnoremap <leader>g :Unite -start-insert file_rec/git<CR>
-nnoremap <leader>t :Unite -start-insert buffer file_rec/async<CR>
+nnoremap <leader>y :Unite -start-insert buffer file_rec/async<CR>
 nnoremap <leader>m :Unite -start-insert neomru/file<CR>
+
+nnoremap <leader>t :FZF<CR>
+
+
