@@ -1,7 +1,7 @@
 # Requirements
 
 ## Shell (fish)
-  - oh-my-fish
+  - bass https://github.com/edc/bass  (install with `git clone` and `make`)
   - fzf `brew install fzf`
 
 ## Vim
