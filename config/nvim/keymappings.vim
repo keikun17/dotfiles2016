@@ -56,6 +56,11 @@ nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
 "Workaround for problem where <c-h> sends <bs>
 nmap <BS>               :TmuxNavigateLeft<cr>
 
+" Quick close
+nnoremap q :q<CR>
+
+nnoremap <leader>t :FZF<CR>
+
 "==============================
 " Unite
 "==============================
@@ -68,4 +73,3 @@ nnoremap <leader>g :Unite -start-insert file_rec/git<CR>
 nnoremap <leader>y :Unite -start-insert buffer file_rec/async<CR>
 nnoremap <leader>m :Unite -start-insert neomru/file<CR>
 
-nnoremap <leader>t :FZF<CR>
