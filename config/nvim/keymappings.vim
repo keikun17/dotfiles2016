@@ -56,6 +56,9 @@ nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
 "Workaround for problem where <c-h> sends <bs>
 nmap <BS>               :TmuxNavigateLeft<cr>
 
+" Remap record to Q
+nnoremap Q q
+
 " Quick close
 nnoremap q :q<CR>
 
