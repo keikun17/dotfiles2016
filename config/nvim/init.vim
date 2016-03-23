@@ -8,7 +8,7 @@ set t_Co=256
 " fish startup is slow. So plugin funcitions like TmuxNavigate<direction>
 " has unacceptable delay
 if &shell =~# 'fish$'
-  set shell=/bin/bash\ -i
+  set shell=/bin/bash
 endif
 
 
