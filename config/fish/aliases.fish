@@ -54,5 +54,4 @@ alias t2="tmux attach -t 2"
 alias t3="tmux attach -t 3"
 alias t4="tmux attach -t 4"
 
-
-
+alias remote_pry="pry-remote"
