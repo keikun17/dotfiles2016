@@ -77,7 +77,9 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'romainl/Apprentice'                            " theme
   " Plug 'whatyouhide/vim-gotham'
   Plug 'bling/vim-airline'
-  Plug 'blueyed/vim-diminactive'
+
+  " Dim inactive pane
+  Plug 'blueyed/vim-diminactive'  
 
   "========================================
   " Text objects
