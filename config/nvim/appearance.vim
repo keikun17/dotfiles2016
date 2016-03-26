@@ -1,5 +1,5 @@
 " colorscheme dracula
 colorscheme apprentice
 
-:hi ColorColumn ctermbg=0 guibg=#eee8d5
+:hi ColorColumn guibg=#262626 ctermbg=235
 " colorscheme gotham256
