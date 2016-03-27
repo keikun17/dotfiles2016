@@ -40,7 +40,8 @@ nnoremap <leader>w :StripWhitespace<CR>
 " Clear search
 nnoremap // :nohlsearch<CR>
 
-nnoremap \ :Gsearch<SPACE>
+nnoremap \| :Gsearch<SPACE>
+nnoremap \ :Ag<SPACE>
 
 "==============================
 " TmuxVimNavigator
