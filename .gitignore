@@ -6,4 +6,5 @@ config/nvim/.init.vim-rplugin~
 config/deluge
 config/gtk-2.0
 
+*.old
 
