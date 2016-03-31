@@ -1,3 +1,6 @@
+# Supress greeting
+set fish_greeting ""
+
 # Load my Aliases
 source ~/.config/fish/aliases.fish
 
