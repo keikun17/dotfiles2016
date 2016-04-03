@@ -61,7 +61,7 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 nnoremap <c-q> q
 
 " q to close quickfix
-nnoremap q :cclose<CR>
+nnoremap q :cclose<CR>:helpclose<CR>
 
 " Quick close window
 nnoremap Q :q<CR>
