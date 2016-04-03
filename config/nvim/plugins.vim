@@ -43,9 +43,14 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'mxw/vim-jsx'
 
   "==============================
-  " Ctags
+  " Ctags / Tagging
   "==============================
   Plug 'craigemery/vim-autotag'
+
+  " Install instructions : https://github.com/ternjs/tern_for_vim
+  " 1. navigate to /dotfiles2016/config/nvim/plugged/tern_for_vim
+  " 2. run `npm install`
+  Plug 'ternjs/tern_for_vim'
 
   "==============================
   " Snips
