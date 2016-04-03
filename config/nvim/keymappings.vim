@@ -60,8 +60,8 @@ nmap <BS>               :TmuxNavigateLeft<cr>
 " Remap record to Ctrl Q
 nnoremap <c-q> q
 
-" q to close quickfix
-nnoremap q :cclose<CR>:helpclose<CR>
+" q to close quickfix, help and Location windows
+nnoremap q :cclose<CR>:helpclose<CR>:lcl<CR>
 
 " Quick close window
 nnoremap Q :q<CR>
