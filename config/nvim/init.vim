@@ -55,3 +55,4 @@ source ~/.config/nvim/plugins.vim         " Load plugins
 source ~/.config/nvim/settings.vim        " Load plugin settings
 source ~/.config/nvim/keymappings.vim     " Load keymappings
 source ~/.config/nvim/appearance.vim      " Load themes / colors
+source ~/.config/nvim/terminal.vim        " Neovim terminal mappings and configs
