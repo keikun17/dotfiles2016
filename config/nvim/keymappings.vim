@@ -68,6 +68,9 @@ nnoremap Q :q<CR>
 
 nnoremap <leader>t :FZF<CR>
 
+" Open terminal in the current window
+nnoremap <leader>c :terminal<CR>
+
 "==============================
 " Unite
 "==============================
