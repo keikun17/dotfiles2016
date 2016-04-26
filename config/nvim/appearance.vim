@@ -8,6 +8,6 @@ colorscheme apprentice
 :hi ColorColumn guibg=#262626 ctermbg=0
 
 " Maroon dim
-:hi ColorColumn guibg=#262626 ctermbg=52
+" :hi ColorColumn guibg=#262626 ctermbg=52
 
 " colorscheme gotham256

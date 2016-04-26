@@ -83,7 +83,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'bling/vim-airline'
 
   " Dim inactive pane
-  Plug 'blueyed/vim-diminactive'  
+  " Plug 'blueyed/vim-diminactive'  
 
   "========================================
   " Text objects
