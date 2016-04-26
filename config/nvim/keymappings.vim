@@ -57,14 +57,12 @@ nnoremap <silent> <C-b> :TmuxNavigatePrevious<cr>
 "Workaround for problem where <c-h> sends <bs>
 nmap <BS>               :TmuxNavigateLeft<cr>
 
-" Remap record to Ctrl Q
-nnoremap <c-q> q
-
 " q to close quickfix, help and Location windows
 nnoremap q :cclose<CR>:helpclose<CR>:lcl<CR>
 
 " Quick close window
 nnoremap Q :q<CR>
+nnoremap <c-q> q
 
 nnoremap <leader>t :FZF<CR>
 
