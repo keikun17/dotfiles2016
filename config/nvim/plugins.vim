@@ -31,6 +31,12 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'vim-ruby/vim-ruby'
 
   "==============================
+  " Elixir
+  "==============================
+  Plug 'elixir-lang/vim-elixir'
+  Plug 'slashmili/alchemist.vim'
+
+  "==============================
   " CSS
   "==============================
   " Plug 'skammer/vim-css-color'
