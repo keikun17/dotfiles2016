@@ -61,8 +61,8 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   " Snips
   "==============================
-  Plug 'SirVer/ultisnips'
-  Plug 'honza/vim-snippets'
+  Plug 'Shougo/neosnippet'
+  Plug 'Shougo/neosnippet-snippets'
 
   "==============================
   " Search
