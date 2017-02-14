@@ -34,6 +34,16 @@ inoremap jk <Esc>
 nnoremap <leader>w :StripWhitespace<CR>
 
 "==============================
+" Clipboard shortcuts
+"==============================
+" Stolen from https://github.com/skwp/dotfiles/blob/master/vim/settings/yadr-keymap.vim
+" copy current filename into system clipboard - mnemonic: (c)urrent(f)ilename
+" this is helpful to paste someone the path you're looking at
+nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
+nnoremap <silent> ,cr :let @* = expand("%")<CR>
+nnoremap <silent> ,cn :let @* = expand("%:t")<CR>
+
+"==============================
 " Searching
 "==============================
 
