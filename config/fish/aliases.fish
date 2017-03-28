@@ -55,3 +55,7 @@ alias t3="tmux attach -t 3"
 alias t4="tmux attach -t 4"
 
 alias remote_pry="pry-remote"
+
+# todo.txt
+
+alias t="todo.sh -d ~/.config/todo.txt/config"

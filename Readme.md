@@ -10,6 +10,21 @@
 ## Tmux
   - tmux-MacOSX-pasteboard / reattach-to-user-namespace : https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
   - Vim Tmux navigator : https://github.com/christoomey/vim-tmux-navigator
+
+## Others
+
+### todo.txt
+Install with `brew install todo-txt`
+
+Commands : 
+  - `t add "Boil potatoes"`
+  - `t ls`
+  - watch the Todo.txt CLI video https://vimeo.com/3263629 for more
+
+
+
+
+  
   
 
 
