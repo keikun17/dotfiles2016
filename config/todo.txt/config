@@ -3,8 +3,8 @@
 # Your todo.txt directory
 #export TODO_DIR="/Users/gina/Documents/todo"
 #export TODO_DIR=$(dirname "$0")
-echo ~
-export TODO_DIR="~/config/todo.txt"
+export TODO_USERHOME=~
+export TODO_DIR="$TODO_USERHOME/Google Drive/todo"
 
 # Your todo/done/report.txt locations
 export TODO_FILE="$TODO_DIR/todo.txt"
