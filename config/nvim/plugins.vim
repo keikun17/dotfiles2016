@@ -33,7 +33,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   " Elixir
   "==============================
-  Plug 'elixir-lang/vim-elixir'
+  Plug 'elixir-editions/vim-elixir'
   Plug 'slashmili/alchemist.vim'
 
   "==============================
@@ -63,6 +63,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'Shougo/neosnippet'
   Plug 'Shougo/neosnippet-snippets'
+  " Plug 'keikun17/keikun17-vim-snippets'
 
   "==============================
   " Search
@@ -89,7 +90,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'bling/vim-airline'
 
   " Dim inactive pane
-  " Plug 'blueyed/vim-diminactive'  
+  " Plug 'blueyed/vim-diminactive'
 
   "========================================
   " Text objects
