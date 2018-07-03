@@ -5,14 +5,14 @@
 " below is copy pasted from https://github.com/Shougo/neosnippet.vim
 let g:deoplete#enable_at_startup = 1
 
-" Use <C-k> to expand snippets on deoplete
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-k>     <Plug>(neosnippet_expand_target)
+" Use <C-l> to expand snippets on deoplete
+imap <C-l>     <Plug>(neosnippet_expand_or_jump)
+smap <C-l>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-l>     <Plug>(neosnippet_expand_target)
 "
 " SuperTab like snippets behavior.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+imap <C-l>     <Plug>(neosnippet_expand_or_jump)
 
 imap <expr><TAB>
 \ pumvisible() ? "\<C-n>" :
@@ -26,3 +26,8 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
+
+" Tell Neosnippet about the other snippets
+let g:neosnippet#enable_snipmate_compatibility = 1
+let g:neosnippet#snippets_directory='~/Projects/keikun17-vim-snippets/snippets'
+
