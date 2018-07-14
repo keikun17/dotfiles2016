@@ -31,3 +31,6 @@ endif
 let g:neosnippet#enable_snipmate_compatibility = 1
 let g:neosnippet#snippets_directory='~/Projects/keikun17-vim-snippets/snippets'
 
+
+imap <expr><CR> neosnippet#expandable() ?
+      \ "\<Plug>(neosnippet_expand)" : "\<CR>"
