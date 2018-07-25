@@ -33,7 +33,8 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   " Elixir
   "==============================
-  Plug 'elixir-editions/vim-elixir'
+  Plug 'elixir-editors/vim-elixir'
+  Plug 'honza/vim-snippets'
   Plug 'slashmili/alchemist.vim'
 
   "==============================
