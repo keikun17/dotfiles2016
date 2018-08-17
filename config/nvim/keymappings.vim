@@ -21,6 +21,12 @@ nnoremap <silent> ss <C-w>s
 vnoremap < <gv
 vnoremap > >gv
 
+" Override $ behavior in visual mode to be the (last character - 1) so when I
+" do a $ before invoking vimsorround, the closing sorround tag will not go the
+" next line.
+vnoremap $ $h
+
+
 " Tab navigation
 nnoremap tn :tabnew<CR>
 nnoremap th :tabprev<CR>
