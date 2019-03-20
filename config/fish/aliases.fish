@@ -1,4 +1,4 @@
-# Vim is nvim
+#Hanekawa /Users/Hanekawa/Library/LaunchAgents/homebrew.mxcl.postgresql.plistHanekawa /Users/Hanekawa/Library/LaunchAgents/homebrew.mxcl.postgresql.plist Vim is nvim
 alias vim "nvim"
 
 # Bundler
