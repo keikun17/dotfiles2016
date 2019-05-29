@@ -18,7 +18,7 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'tomtom/tcomment_vim'     " comments
   Plug 'tpope/vim-surround'      " quick change surround
-  Plug 'Shougo/deoplete.nvim'    " autocompletion
+  " Plug 'Shougo/deoplete.nvim'    " autocompletion
   Plug 'Townk/vim-autoclose'
   Plug 'ntpeters/vim-better-whitespace'
   Plug 'mattn/emmet-vim'
@@ -62,8 +62,8 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   " Snips
   "==============================
-  Plug 'Shougo/neosnippet'
-  Plug 'Shougo/neosnippet-snippets'
+  " Plug 'Shougo/neosnippet'
+  " Plug 'Shougo/neosnippet-snippets'
   " Plug 'keikun17/keikun17-vim-snippets'
 
   "==============================
