@@ -18,10 +18,27 @@ call plug#begin('~/.config/nvim/plugged')
   "==============================
   Plug 'tomtom/tcomment_vim'     " comments
   Plug 'tpope/vim-surround'      " quick change surround
-  " Plug 'Shougo/deoplete.nvim'    " autocompletion
+
+
   Plug 'Townk/vim-autoclose'
   Plug 'ntpeters/vim-better-whitespace'
   Plug 'mattn/emmet-vim'
+
+  "==============================
+  " Autocompletion
+  "==============================
+  " Plug 'Shougo/deoplete.nvim'    " autocompletion
+
+  " https://github.com/neoclide/coc.nvim
+  Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
+
+  " https://github.com/autozimu/LanguageClient-neovi
+  Plug 'autozimu/LanguageClient-neovim', {
+      \ 'branch': 'next',
+      \ 'do': 'bash install.sh',
+      \ }
+  " (Optional) Multi-entry selection UI.
+  Plug 'junegunn/fzf'
 
   "==============================
   " Ruby / Rails
